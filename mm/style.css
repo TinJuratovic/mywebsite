@@ -1,0 +1,66 @@
+/* Responzivnost */
+img {
+    width: 100%;
+    height: auto;
+}
+
+/* Dodatne prilagodbe za mobilne uređaje */
+@media (max-width: 768px) {
+    .row {
+        flex-direction: column;
+    }
+    .col-md-6, .col-md-4 {
+        margin-bottom: 20px;
+    }
+}
+
+/* Dizajn stranice */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.bg-light {
+    background-color: #fff;
+}
+
+.rounded {
+    border-radius: 10px;
+}
+
+.shadow {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Navigacija */
+.navbar {
+    padding: 1rem;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+}
+
+/* Footer */
+footer {
+    padding: 1rem;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    clear: both;
+}
+
+/* Linkovi */
+a {
+    text-decoration: none;
+    color: #337ab7;
+}
+
+a:hover {
+    color: #23527c;
+}
+
+.navbar-brand img {
+    height: 40px; /* prilagodi veličinu po želji */
+  }
+  
